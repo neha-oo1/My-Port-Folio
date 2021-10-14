@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+/* font-family: 'Festive', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* font-family: 'Varela Round', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* font-family: 'Satisfy', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+/* font-family: 'Cookie', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+/* font-family: 'Baloo 2', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: 'Great Vibes', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+/* font-family: 'Fleur De Leah', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* font-family: 'Sacramento', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+/* font-family: 'Noto Sans Mono', monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bg10_1.jpg);
+    height: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: #7a202f;
+    width: 100%;
+    height: 82px;
+    color: white;
+}
+
+.name{
+    justify-content: left;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 83%;
+    padding-left: 20px;
+    color: white;
+    font-size: 38px;
+    /* font-weight: bold; */
+    position: fixed;
+    font-family: 'Festive', cursive;
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Fleur De Leah', cursive;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
+}
+
+.nav-item{
+    list-style: none;
+    padding: 23px 23px;
+}
+
+.nav-link{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    
+}
+
+.nav-link:hover{
+    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
+    font-size: 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    margin-right: 22px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+} 
+::-webkit-scrollbar-thumb {
+    background: #11425a; 
+    /* background-color: #ec516b;  */
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ec516b;
+    /* background: #11425a;   */
+}
+
+@media screen and (max-width: 1102px){
+    .name{        
+        margin-right: 76%;
+    }
+}
+
+
+@media screen and (max-width: 798px){
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 96px;
+        flex-direction: column;
+        background-color: #7a202f;
+        width: 100%;
+        border-radius: 25px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: -3% 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .name{
+        margin-right: 67%;
+    }
+
+}
+
+@media screen and (max-width: 566px){
+    .name{        
+        margin-right: 58%;
+    }
+}
+@media screen and (max-width: 436px){
+    .name{        
+        margin-right: 45%;
+    }
+}

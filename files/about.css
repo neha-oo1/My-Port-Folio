@@ -1,0 +1,154 @@
+
+.header2{
+    margin: 5% 19%;
+    scroll-margin-top: 1000px;
+}
+.mpic{
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    margin-top: -11%;
+    margin-left: 33%;
+    margin-bottom: -26%;
+}
+.mpic:hover{
+    box-shadow: rgb(96 117 152) 0px 28px 55px, rgb(96 117 152) 0px -12px 126px, rgb(96 117 152) 0px 4px 6px, rgb(96 117 152) 0px 12px 13px, rgb(96 117 152) 0px -3px 5px;
+}
+.container1{
+    margin: 26% 25px;
+    color: white;
+}
+.mname a{
+    margin-left: 27%;
+    font-size: 88px;
+    padding-top: 12%;
+    font-family: 'Festive', cursive;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
+}
+.mname a:hover{
+    text-shadow: 1px 1px 2px black, 0 0 25px #ff0000, 0 0 5px #ff12f8;
+}
+.abt{
+    margin-left: 7%;
+    font-size: 116%;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 13px;
+    margin-bottom: -18%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1386px){
+    .header2{
+        margin: 8% 19%;
+    }
+}
+
+
+@media screen and (max-width: 954px){
+    .header2{
+        margin: 11% 19%;
+    }
+    .mname a{
+        margin-left: 18%;
+        font-size: 70px;
+    }
+    .abt{
+        margin-left: 1%;
+        font-size: 106%;
+    }
+    .mname a:hover{
+        font-size: 70px;
+    }
+    .mpic{
+        margin-left: 25%;
+        height: 250px;
+        width: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 678px){
+    .mname a{
+        margin-left: 10%;
+        font-size: 65px;
+    }
+    .abt{
+        margin-left: 13%;
+        font-size: 103%;
+    }
+    .mname a:hover{
+        font-size: 65px;
+    }
+    
+}
+@media screen and (max-width: 588px){
+    .mname a{
+        margin-left: 3%;
+        font-size: 55px;
+    }
+    .abt{
+        margin-left: 1%;
+        font-size: 119%;
+    }
+    .mname a:hover{
+        font-size: 55px;
+    }
+    .mpic {
+        margin-left: 18%;
+        height: 220px;
+        width: 220px;
+    }
+}
+@media screen and (max-width: 480px){
+    .mname a{
+        margin-left: 7%;
+        font-size: 40px;
+    }
+    .abt{
+        margin-left: 1%;
+        font-size: 91%;
+    }
+    .mname a:hover{
+        font-size: 40px;
+    }
+    .mpic {
+        margin-left: 12%;
+        height: 220px;
+        width: 220px;
+    }
+}
+@media screen and (max-width: 380px){
+    .mname a{
+        margin-left: 13%;
+        font-size: 28px;
+    }
+    .abt{
+        margin-left: 1%;
+        font-size: 75%;
+    }
+    .mname a:hover{
+        font-size: 28px;
+    }
+    .mpic {
+        margin-left: 16%;
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 308px){
+    .mname a {
+        margin-left: -6%;
+        font-size: 31px;
+    }
+    .mname a:hover{
+        font-size: 31px;
+    }
+    .mpic{
+        margin-left: 16%;
+        height: 150px;
+        width: 150px;
+    }
+}
+

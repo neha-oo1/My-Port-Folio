@@ -1,0 +1,108 @@
+
+.container2{
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    scroll-margin-top: 80px;
+}
+.head1{
+    font-family: 'Festive', cursive;
+    font-size: 582%;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: -2%;
+    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
+    text-shadow: 1px 1px 2px black, 0 0 25px #ff0000, 0 0 5px #ff12f8;
+    
+}
+.line{
+    width: 38%;
+    margin-left: 31%;
+    margin-bottom: 32px;
+    margin-top: 50px;
+}
+.edu1{
+    margin-bottom: 110px;
+    margin-top: -42px;
+}
+.edu1 h2{
+    margin-top: 51px;
+    font-family: 'Cookie', cursive;
+    margin-bottom: 6px;
+    font-size: 46px;
+    cursor: text;
+}
+
+.edu1 a{
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: 7% 4%;
+}
+.edu1 a:hover{
+    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
+}
+.edu1 h4{
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background: #f84983d1;
+}
+
+@media screen and (max-width: 954px){
+    .head1{
+        font-size: 56px;
+    }
+    .edu1 h2{
+        font-size: 35px;
+    }
+    
+    .edu1 a{
+        font-size: 20px;
+    }
+    .edu1 h4{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 566px){
+    .head1{
+        font-size: 45px;
+    }
+    .edu1 h2{
+        font-size: 32px;
+    }
+    
+    .edu1 a{
+        font-size: 18px;
+    }
+    .edu1 h4{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width: 380px){
+    .head1{
+        font-size: 38px;
+    }
+    .edu1 h2{
+        font-size: 28px;
+    }
+    
+    .edu1 a{
+        font-size: 15px;
+    }
+    .edu1 h4{
+        font-size: 11px;
+    }
+    
+}

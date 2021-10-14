@@ -1,0 +1,90 @@
+
+.container3{
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    scroll-margin-top: 80px;
+}
+.head{
+    font-family: 'Festive', cursive;
+    font-size: 582%;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 32px;
+    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
+    text-shadow: 1px 1px 2px black, 0 0 25px #ff0000, 0 0 5px #ff12f8;
+    
+}
+.line{
+    width: 38%;
+    margin-left: 31%;
+    margin-bottom: 32px;
+    margin-top: 50px;
+}
+.edu{
+    margin-bottom: 110px;
+    margin-top: -33px;
+}
+.edu h2{
+    margin-top: 51px;
+    font-size: 42px;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Cookie', cursive;
+    margin-bottom: -7px;
+    cursor: text;
+}
+
+.edu h4{
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    cursor: text;
+    margin: 23px;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background: #f84983d1;
+}
+
+button.btn{
+    height: 39px;
+    width: 85px;
+    font-size: 24px;
+    font-family: cursive;
+    text-decoration: none;
+    border: none;
+    background-color: #7a202fd9;
+    color: white;
+    border-radius: 17px;
+    box-shadow: #ec516b 0px 30px 60px -12px inset, #13a1d0 0px 18px 36px -18px inset;
+    cursor: grab;
+}
+button.btn:hover{
+    box-shadow: #51b3ec 0px 30px 60px -12px inset, #13a1d0 0px 18px 36px -18px inset;
+
+}
+
+@media screen and (max-width: 566px){
+    .head{
+        font-size: 68px;
+    }
+    .edu h2{
+        font-size: 36px;
+    }
+    
+    .edu a{
+        font-size: 18px;
+    }
+    .edu h4{
+        font-size: 14px;
+    }
+    button.btn{
+        height: 32px;
+        width: 79px;
+        font-size: 19px;
+    }
+}
