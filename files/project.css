@@ -37,11 +37,9 @@
 .edu h4{
     font-size: 18px;
     font-family: 'Comfortaa', cursive;
-    margin-top: 20px;
-    margin-bottom: 20px;
     cursor: pointer;
     cursor: text;
-    margin: 23px;
+    margin: 23px 9%;
 }
 
 hr{
