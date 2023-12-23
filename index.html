@@ -1,88 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
 
-.container3{
-    color: white;
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
-    scroll-margin-top: 80px;
-}
-.head{
-    font-family: 'Festive', cursive;
-    font-size: 582%;
-    text-align: center;
-    margin-bottom: 23px;
-    margin-top: 32px;
-    text-shadow: 1px 1px 2px #031217, 0 0 25px #13a1d0, 0 0 5px #ff12f8;
-    text-shadow: 1px 1px 2px black, 0 0 25px #ff0000, 0 0 5px #ff12f8;
-    
-}
-.line{
-    width: 38%;
-    margin-left: 31%;
-    margin-bottom: 32px;
-    margin-top: 50px;
-}
-.edu{
-    margin-bottom: 110px;
-    margin-top: -33px;
-}
-.edu h2{
-    margin-top: 51px;
-    font-size: 42px;
-    font-family: 'Baloo 2', cursive;
-    font-family: 'Cookie', cursive;
-    margin-bottom: -7px;
-    cursor: text;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Port-folio</title>
+    <link rel="icon" href="files/Images/icon2.png">
+    <link rel="stylesheet" href="files/navbar.css">
+    <link rel="stylesheet" href="files/about.css">
+    <link rel="stylesheet" href="files/education.css">
+    <link rel="stylesheet" href="files/project.css">
+    <link rel="stylesheet" href="files/gallery.css">
+    <link rel="stylesheet" href="files/footer.css">
+</head>
 
-.edu h4{
-    font-size: 18px;
-    font-family: 'Comfortaa', cursive;
-    cursor: pointer;
-    cursor: text;
-    margin: 23px 9%;
-}
+<body>
+    <header class="header1">
+        <a href="#about" class="name">NehaSingh</a>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link"> About</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 
-hr{
-    border: 0;
-    height: 2px;
-    background: #f84983d1;
-}
+    <header class="header2" id="about">
+        <img src="files/Images/N_G.jpeg" alt="My pic" class="mpic">
+        <div class="container1">
+            <h1 class="mname"><a href="">Neha Singh</a></h1>
+            <h2 class="abt">I am a dedicated and ambitious individual deeply passionate about the IT field. Currently in
+                my final year pursuing B.Tech in IT at IIITA, I possess exceptional communication skills that facilitate
+                effective interaction with diverse audiences. As a tech enthusiast, I have actively engaged with
+                frontend technologies such as HTML, CSS, React and Javascript. My proficiency extends to languages like
+                C, C++, Java, Kotlin, NodeJs, Python.
+            </h2>
+        </div>
+    </header>
 
-button.btn{
-    height: 39px;
-    width: 85px;
-    font-size: 24px;
-    font-family: cursive;
-    text-decoration: none;
-    border: none;
-    background-color: #7a202fd9;
-    color: white;
-    border-radius: 17px;
-    box-shadow: #ec516b 0px 30px 60px -12px inset, #13a1d0 0px 18px 36px -18px inset;
-    cursor: grab;
-}
-button.btn:hover{
-    box-shadow: #51b3ec 0px 30px 60px -12px inset, #13a1d0 0px 18px 36px -18px inset;
+    <div class="container2" id="education">
+        <h1 class="head1">Education</h1>
+        <div class="edu1">
+            <h2>College (2020-2024)</h2>
+            <a href="https://www.iiita.ac.in/" target="_blank">Indian Institute of Information Technology, Allahabad</a>
+            <h4>Grade : 8.81</h4>
 
-}
+            <hr class="line">
+            <h2>Intermediate (2018-2020)</h2>
+            <a href="https://srichaitanya.net/" target="_blank">Sri Chaitanya Educational Institutions,
+                Visakhapatnam</a>
+            <h4>Grade : 95.2%</h4>
 
-@media screen and (max-width: 566px){
-    .head{
-        font-size: 68px;
-    }
-    .edu h2{
-        font-size: 36px;
-    }
-    
-    .edu a{
-        font-size: 18px;
-    }
-    .edu h4{
-        font-size: 14px;
-    }
-    button.btn{
-        height: 32px;
-        width: 79px;
-        font-size: 19px;
-    }
-}
+            <hr class="line">
+            <h2>School (2018)</h2>
+            <a href="http://www.hellensschool.in/" target="_blank">Hellens School, Sitamarhi</a>
+            <h4>Grade : 93%</h4>
+
+        </div>
+    </div>
+
+    <div class="container2" id="experience">
+        <h1 class="head1">Experience</h1>
+        <div class="edu">
+            <h2>Software Engineer Intern, Google</h2>
+            <h4>Worked on offer validator library for vehicle ads which will be used to validate the offers given by the merchant with the data present on their website.</h4>
+
+        </div>
+    </div>
+
+
+    <div class="container3" id="project">
+        <h1 class="head1">Projects</h1>
+        <div class="edu">
+            <h2>YouFinder - Facial Recognition Technology</h2>
+            <h4>A web application allowing users to upload a single image and find themselves in a set of other images. The application displays matching photos with an option to download them.</h4>
+            <h4>Languages and Technologies: Python, HTML, CSS</h4>
+            <a href="https://github.com/neha-oo1/YouFinder" target="_blank"><button class="btn">Visit</button></a>
+
+            <hr class="line">
+
+            <h2>ConferEx - International Conference Management System</h2>
+            <h4>A web-based application enabling users to create and participate in conferences, featuring keynote sessions, research paper presentations, and more.</h4>
+            <h4>Languages and Technologies: HTML, CSS, JS, Bootstrap, Firebase</h4>
+            <a href="https://github.com/neha-oo1/confereX" target="_blank"><button
+                    class="btn">Visit</button></a>
+        </div>
+    </div>
+
+    <div class="container4" id="gallery">
+        <h1 class="head1">Gallery</h1>
+        <img src="files/Images/pic3.png" alt="anime" class="pics">
+        <img src="files/Images/pic2.png" alt="anime" class="pics">
+        <img src="files/Images/pic7.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic5.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic6.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic9.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic11.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic12.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic15.jpg" alt="anime" class="pics">
+        <img src="files/Images/pic14.jpg" alt="anime" class="pics">
+
+    </div>
+
+    <div class="footer" id="contact">
+        <p class="cnct-me">Connect with me</p>
+        <div class="images">
+            <a href="https://github.com/neha-oo1" target="_blank"><img src="files/Images/github.png"
+                    class="social-img"></a>
+            <a href="https://www.facebook.com/people/Neha-Singh/100015604001661/" target="_blank"><img
+                    src="files/Images/facebook.png" class="social-img"></a>
+            <a href="https://www.instagram.com/singh._neha__/" target="_blank"><img src="files/Images/instagram.png"
+                    class="social-img"></a>
+            <a href="https://www.linkedin.com/in/neha-singh-81aa83211/" target="_blank"><img
+                    src="files/Images/linkedin.png" class="social-img"></a>
+        </div>
+        <p class="cpy" style="font-size: 25">Copyright © 2023, All Right Reserved NehaSingh</p>
+    </div>
+
+    <script src="files/navbar.js"></script>
+</body>
+
+</html>
